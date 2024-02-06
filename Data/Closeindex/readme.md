@@ -6,6 +6,7 @@
 * data_process.ipynb ：为数据处理脚本
 * data_obtain.py: 为在uqer平台上的数据获取脚本，不知道是否是平台的原因，不能导出为ipynb的格式
 * close_index_data：为各个策略指标的净值（处理后的值）
+* processed_close_index.csv：为各个策略指标的净值,整合在了一起，接下来使用这个即可
 
 
 
@@ -32,3 +33,6 @@
 
 
 更新：发现有些指标的数据统计的开始时间并不是2007，如`H50066`数据是从2014年开始的，因此只需要从策略指数数据统计开始的日期进行分析即可
+
+## processed_close_index.csv
+将close_index_data中所有策略指数的净值整合在一起，接下来使用这个即可
